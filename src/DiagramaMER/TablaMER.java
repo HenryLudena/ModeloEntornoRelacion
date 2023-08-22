@@ -6,6 +6,10 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 public class TablaMER {
     public static void main(String[] args) throws Exception {
+
+        //Para la visualización correcta de las tablas de datos es recomendable usar la extensión SQLite Viewer
+
+
         //Nombre de la base de datos
         String dataBaseURL = "TablaDatosVacia";
         //Ubicación del archivo .db dentro de la carpeta "database"
